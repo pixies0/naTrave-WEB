@@ -48,7 +48,7 @@ export const Card = ({
       </span>
       <form className="flex space-x-4 justify-center items-center">
         <span className="uppercase">{homeTeam}</span>
-        <img src={`/public/bandeiras/${homeTeam}.png`} />
+        <img src={`./bandeiras/${homeTeam}.png`} />
 
         <input
           className=" bg-red-300/[0.2] w-16 h-16 text-red-700 text-xl text-center"
@@ -76,7 +76,7 @@ export const Card = ({
           disabled={disabled}
         />
 
-        <img src={`/public/bandeiras/${awayTeam}.png`} />
+        <img src={`./bandeiras/${awayTeam}.png`} />
         <span className="uppercase">{awayTeam}</span>
       </form>
     </div>

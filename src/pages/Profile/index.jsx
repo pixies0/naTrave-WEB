@@ -64,7 +64,7 @@ export const Profile = () => {
         <div className="container max-w-3xl  flex justify-between p-4">
           <a href="/">
             <img
-              src="/public/logo/logo-fundo-vermelho.svg"
+              src="./logo/logo-fundo-vermelho.svg"
               className="w-28 md:w-40"
             />
           </a>
