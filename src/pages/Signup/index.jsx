@@ -46,7 +46,7 @@ export const Signup = () => {
     <div>
       <header className="p-4 border-b border-red-300">
         <div className="container flex justify-center max-w-xl">
-          <img src=".=/public/logo/logo.svg" className="w-32 md:w-40"></img>
+          <img src="./public/logo/logo.svg" className="w-32 md:w-40"></img>
         </div>
       </header>
 
