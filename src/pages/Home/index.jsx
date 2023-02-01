@@ -11,7 +11,7 @@ export function Home() {
     <div className="h-screen bg-red-700 p-4 text-white flex flex-col items-center space-y-6 ">
       <header className="container  flex justify-center max-w-5xl p-4">
         <img
-          src="../../src/assets/public/logo/logo-fundo-vinho.svg"
+          src="src/assets/public/logo/logo-fundo-vinho.svg"
           className="w-40"
         ></img>
       </header>
@@ -19,7 +19,7 @@ export function Home() {
         <div className="md:flex-1 flex justify-center">
           {/* alterar imagem do cabeçalho aqui */}
           <img
-            src="../../src/assets/public/imagem/Mask group.png"
+            src="src/assets/public/imagem/Mask group.png"
             className="w-full max-w-sm "
           />
         </div>
